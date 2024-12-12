@@ -2,53 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-/* Welcome Section Styling */
-.welcome-section {
-    height: 100vh; /* Full viewport height */
-    background: url('coffee-home.jpg') no-repeat center center/cover; /* Background image, adjusted to cover the full area */
-    display: flex; /* Flexbox for centering content */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    text-align: center; /* Align text in the center */
-}
 
-.welcome-content {
-    color: white;
-    background-color: #4e3b31; /* Transparent background to make text stand out */
-    padding: 40px;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 600px;
-}
-
-.welcome-content h1 {
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-transform: uppercase; /* Capitalize the shop name */
-    letter-spacing: 2px;
-}
-
-.welcome-content p {
-    font-size: 24px;
-    margin-bottom: 30px;
-}
-
-.view-more-btn {
-    padding: 12px 25px;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    background-color: #4e3b31; /* Coffee-like color from your theme */
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    text-transform: uppercase; /* Uppercase letters for the button */
-}
-
-.view-more-btn:hover {
-    background-color: #3b2a1f; /* Darker coffee color on hover */
-    cursor: pointer;
-}
 /* Navbar styles */
 nav {
     background-color: #6F4E37;
