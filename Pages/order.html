@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - KRPM Coffee Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/order.js" defer></script>
+
+</head>
+<body>
+    <nav>
+        <a href="home.html" class="logo">
+            <img src="images/coffee.png" alt="KRPM Coffee Shop Logo">
+            <span>KRPM Coffee Shop</span>
+        </a>
+        <div class="menu-toggle">&#9776;</div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="order">
+        <h1>Your Order</h1>
+        <div id="order-details">
+            <!-- Order details will be dynamically added here -->
+        </div>
+        <div id="order-summary">
+            <h2>Total: PHP <span id="total-cost">0</span></h2>
+            <button id="add-more">Add More Coffee</button>
+            <button id="checkout">Checkout</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 KRPM Coffee Shop. All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
